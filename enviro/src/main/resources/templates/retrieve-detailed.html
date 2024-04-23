@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detailed Weather</title>
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" href="/webjars/bootstrap/5.2.3/css/bootstrap.min.css">
+</head>
+<body style="background-color: #f5f5f5;">
+
+    <div class="container mt-4">
+        <h1 style="display:inline">Weather Conditions Detailed</h1>
+        <table id="weatherTable" style="height:70vh" class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Temperature</th>
+                    <th>Humidity</th>
+                    <th>Air Quality Index</th>
+                    <th>Precipitation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="condition : ${conditions}">
+                    <td th:text="${condition.time}"></td>
+                    <td th:text="${condition.temperature}"></td>
+                    <td th:text="${condition.humidity}"></td>
+                    <td th:text="${condition.aqi}"></td>
+                    <td th:text="${condition.precipitation}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

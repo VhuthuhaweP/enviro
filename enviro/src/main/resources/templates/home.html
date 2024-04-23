@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/home.css" />
+</head>
+
+<body>
+    <div class="container mt-5">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" onclick=handleNavigation("retrieve") data-bs-toggle="tab">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick=handleNavigation("retrieve") data-bs-toggle="tab">Retrieve</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick=handleNavigation("upload") data-bs-toggle="tab">Upload</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" onclick=handleNavigation("retrieve/1999-04-20") data-bs-toggle="tab">Detailed</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="retrieve">
+                <h4 id="frameHeading" class="mt-2">Retrieve</h4>
+                <iframe id="renderApplication" src="/retrieve" width="100%" style="border:none; height:80vh">
+                    Your browser does not support iframes.
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="/home.js"></script>
+    <script src="/webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
