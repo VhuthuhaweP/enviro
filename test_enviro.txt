@@ -1,0 +1,71 @@
+Date: 2024-04-14T06:00
+Temperature (Celsius): 18
+Humidity (%): 76
+Air Quality Index: 30
+Precipitation (mm): 0
+
+Date: 2024-04-14T12:00
+Temperature (Celsius): 20
+Humidity (%): 63
+Air Quality Index: 35
+Precipitation (mm): 0
+
+Date: 2024-04-14T18:00
+Temperature (Celsius): 21
+Humidity (%): 70
+Air Quality Index: 37
+Precipitation (mm): 0
+
+Date: 2024-04-15T06:00
+Temperature (Celsius): 16
+Humidity (%): 78
+Air Quality Index: 30
+Precipitation (mm): 0
+
+Date: 2024-04-15T12:00
+Temperature (Celsius): 21
+Humidity (%): 65
+Air Quality Index: 35
+Precipitation (mm): 0
+
+Date: 2024-04-15T18:00
+Temperature (Celsius): 19
+Humidity (%): 72
+Air Quality Index: 38
+Precipitation (mm): 0
+
+Date: 2024-04-16T06:00
+Temperature (Celsius): 14
+Humidity (%): 80
+Air Quality Index: 40
+Precipitation (mm): 5
+
+Date: 2024-04-16T12:00
+Temperature (Celsius): 18
+Humidity (%): 77
+Air Quality Index: 42
+Precipitation (mm): 10
+
+Date: 2024-04-16T18:00
+Temperature (Celsius): 16
+Humidity (%): 82
+Air Quality Index: 45
+Precipitation (mm): 7
+
+Date: 2024-04-17T06:00
+Temperature (Celsius): 15
+Humidity (%): 85
+Air Quality Index: 50
+Precipitation (mm): 12
+
+Date: 2024-04-17T12:00
+Temperature (Celsius): 15
+Humidity (%): 85
+Air Quality Index: 50
+Precipitation (mm): 12
+
+Date: 2024-04-17T18:00
+Temperature (Celsius): 15
+Humidity (%): 85
+Air Quality Index: 50
+Precipitation (mm): 12
